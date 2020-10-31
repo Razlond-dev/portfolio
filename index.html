@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <!-- title icon -->
+  <link rel="shortcut icon" href="/images/title3.png">
+
+  <!--link FontAwesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" />
+  <!-- link css files -->
+  <link rel="stylesheet" href="/css/main.css">
+
+</head>
+
+<body>
+
+  <header id="main">
+    <!--navigation-->
+    <nav>
+      <!--logo-->
+      <a href="#main" class="logo"></a>
+      <div class="toggle"></div>
+      <!--menu-->
+      <ul class="menu">
+        <li><a href="#main">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#my-stack">My stack</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact-form">Contact</a></li>
+
+      </ul>
+      <!--bar-icon-->
+
+    </nav>
+    <div class="header-inner">
+      <div class="name">
+        <h1>Nazar Pidhirnyi</h1>
+        <span class="details">Self-taught web developer</span>
+        <a href="#contact-form" class="greet-btn">Contact me</a>
+      </div>
+      <div class="avatar-container">
+        <img class="avatar" src="/images/Ava.jpg" alt="">
+      </div>
+    </div>
+    <!--Social-->
+    <div class="social">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-github"></i></a>
+    </div>
+  </header>
+  <!--about section-->
+  <section id="about">
+    <div class="about-text">
+      <div class="about-heading">
+        <h2>About me</h2>
+      </div>
+      <p>Hi there, my name is Nazar and I am 21 years old. Currently I am studying Environmental Engineering at Lodz University of Technology. 
+        I've meet up with web development in the summer 2020 and from the very begginning, it becomes my favorite hobby. Eager to new knowledge, 
+        after understanding how to work with HTML and CSS, I've dive into JavaScript and later to React.js. 
+        Getting pleasure to learn something new at coding, for the past month I've recognized, that this is my passion, which I certainly need to follow. :)
+      </p>
+    </div>
+
+    <div class="about-my-path">
+
+      <div class="my-path-item">
+        <img src="/images/environmental.png" alt="">
+        <p>2017 - Now</p>
+        <p>B.Sc. Environmental Engineering</p>
+      </div>
+
+      <div class="my-path-item">
+        <img src="/images/web-dev.png" alt="">
+        <p>2020 - Now</p>
+        <p>Web development</p>
+      </div>
+
+    </div>
+
+  </section>
+  <!--my-stack-->
+  <section id="my-stack">
+    <div class="s-heading">
+      <div class="s-heading-title">
+        <h2>My stack</h2>
+      </div>
+      <p>Here is my stack of technologies and tools that I am familiar with and continuously learning. </p>
+    </div>
+    <div class="s-b-container">
+
+      <span class="icon-1"></span>
+      <span class="icon-2"></span>
+      <span class="icon-3"></span>
+      <span class="icon-4"></span>
+      <span class="icon-5"></span>
+
+
+
+    </div>
+  </section>
+  <!--portfolio-->
+  <section id="portfolio">
+    <div class="p-heading-container">
+      <h2>Portfolio</h2>
+    </div>
+    <div class="p-b-container">
+
+      <div class="p-box">
+        <div class="text-overlay">
+          <h3>Social network</h3>
+          <p>My first React.js project. Made for learning purpose.</p>
+          <button class="p-btn-demo">Demo</button>
+          <button class="p-btn-code">Code</button>
+        </div>
+      </div>
+
+      <div class="p-box">
+        <div class="text-overlay">
+          <h3>Social network</h3>
+          <p>My first React.js project. Made for learning purpose.</p>
+          <button class="p-btn-demo">Demo</button>
+          <button class="p-btn-code">Code</button>
+        </div>
+      </div>
+
+      <div class="p-box">
+        <div class="text-overlay">
+          <h3>Social network</h3>
+          <p>My first React.js project. Made for learning purpose.</p>
+          <button class="p-btn-demo">Demo</button>
+          <button class="p-btn-code">Code</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!--contact-btn-->
+  <section id="contact-btn">
+    <h2>Do you want to contact me?</h2>
+
+    <a href="#contact-form">Contact me</a>
+  </section>
+  <!--contact-form-->
+  <section id="contact-form">
+    <form name="contact" netlify>
+
+      <div class="contact-left">
+        <h2 class="c-l-heading">Write me</h2>
+
+        <div class="f-name">
+          <h4>Name</h4>
+
+          <input type="text" name="name" placeholder="Full Name">
+        </div>
+
+        <div class="f-email">
+          <h4>Email</h4>
+
+          <input type="email" name="email" placeholder="Example@mail.com">
+        </div>
+
+        <div class="f-email">
+          <h4>Subject</h4>
+
+          <input type="text" name="subject" placeholder="...">
+        </div>
+
+      </div>
+      <div class="contact-right">
+        <div class="message">
+          <h4>Message</h4>
+          <textarea name="message" id="" cols="20" rows="5" placeholder="Write me message.."></textarea>
+        </div>
+        <button type="submit" name="submit">Submit</button>
+      </div>
+
+    </form>
+  </section>
+
+  <footer class="footer">
+    <div class="f-social">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-github"></i></a>
+    </div>
+    <div class="f-text">
+      <p>2020 | Made by Nazar Pidhirnyi</p>
+    </div>
+  </footer>
+
+
+  <!--Jquery-->
+  <script src="js/jquery.js"></script>
+  <!--ScrollOut-->
+  <script src="/js/scroll-out.js"></script>
+  <!--Main js-->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
