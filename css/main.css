@@ -446,7 +446,7 @@ nav {
 .p-box {
   width: 400px;
   height: 600px;
-  background-image: url('/images/react.png');
+  background-image: url('/images/comingSoon.png');
   background-size: 100% 100%;
   background-repeat: no-repeat;
   border-radius: 10px;
@@ -455,6 +455,17 @@ nav {
   position: relative;
   opacity: 0;
   overflow-x: hidden;
+}
+
+.recipe {
+  background-image: url('/images/recipe.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+
+.not-done {
+  color: red;
 }
 
 .p-box:last-child {
@@ -533,6 +544,15 @@ nav {
 
 .text-overlay p {
   font-size: 1.2rem;
+}
+
+.text-overlay ul {
+  font-size: 1rem;
+  color: rgb(196, 196, 196);
+  list-style-type: disc;
+}
+.text-overlay li + li {
+  margin-top: 10px;
 }
 
 .p-box:hover .text-overlay {
