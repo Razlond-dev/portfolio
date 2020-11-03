@@ -459,10 +459,13 @@ nav {
 
 .recipe {
   background-image: url('/images/recipe.png');
-  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
+.e-commerce {
+  background-image: url('/images/e-commerce.JPG');
+  background-repeat: no-repeat;
+}
 
 .not-done {
   color: red;
