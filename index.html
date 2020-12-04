@@ -1,229 +1,293 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of self-taught front-end developer."
+    />
+    <title>Portfolio</title>
+    <!-- title icon -->
+    <link rel="shortcut icon" href="/images/title3.png" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
-  <!-- title icon -->
-  <link rel="shortcut icon" href="/images/title3.png">
+    <!--link FontAwesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <!-- link css files -->
+    <link rel="stylesheet" href="/css/main.css" />
+  </head>
 
-  <!--link FontAwesome-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
-    crossorigin="anonymous" />
-  <!-- link css files -->
-  <link rel="stylesheet" href="/css/main.css">
-
-</head>
-
-<body>
-
-  <header id="main">
-    <!--navigation-->
-    <nav>
-      <!--logo-->
-      <a href="#main" class="logo"></a>
-      <div class="toggle"></div>
-      <!--menu-->
-      <ul class="menu">
-        <li><a href="#main">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#my-stack">My stack</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact-form">Contact</a></li>
-
-      </ul>
-      <!--bar-icon-->
-
-    </nav>
-    <div class="header-inner">
-      <div class="name">
-        <h1>Nazar Pidhirnyi</h1>
-        <span class="details">Self-taught web developer</span>
-        <a href="#contact-form" class="greet-btn">Contact me</a>
-      </div>
-      <div class="avatar-container">
-        <img class="avatar" src="/images/Ava.jpg" alt="">
-      </div>
-    </div>
-    <!--Social-->
-    <div class="social">
-      <a href="https://www.facebook.com/nazar.pidhirnyi" target="_blank"><i class="fab fa-facebook"></i></a>
-      <a href="https://github.com/Razlond-dev" target="_blank"><i class="fab fa-github"></i></a>
-    </div>
-  </header>
-  <!--about section-->
-  <section id="about">
-    <div class="about-text">
-      <div class="about-heading">
-        <h2>About me</h2>
-      </div>
-      <p>Hi there, my name is Nazar and I am 21 years old. Currently I am studying Environmental Engineering at Lodz
-        University of Technology.
-        I've meet up with web development in the summer 2020 and from the very begginning, it becomes my favorite hobby.
-        Eager to new knowledge,
-        after understanding how to work with HTML and CSS, I've dive into JavaScript and later to React.js.
-        Getting pleasure to learn something new at coding, for the past month I've recognized, that this is my passion,
-        which I certainly need to follow. :)
-      </p>
-    </div>
-
-    <div class="about-my-path">
-
-      <div class="my-path-item">
-        <img src="/images/environmental.png" alt="">
-        <p>2017 - Now</p>
-        <p>B.Sc. Environmental Engineering</p>
-      </div>
-
-      <div class="my-path-item">
-        <img src="/images/web-dev.png" alt="">
-        <p>2020 - Now</p>
-        <p>Web development</p>
-      </div>
-
-    </div>
-
-  </section>
-  <!--my-stack-->
-  <section id="my-stack">
-    <div class="s-heading">
-      <div class="s-heading-title">
-        <h2>My stack</h2>
-      </div>
-      <p>Here is my stack of technologies and tools that I am familiar with and keep continuously learning. </p>
-    </div>
-    <div class="s-b-container">
-
-      <span class="icon-1"></span>
-      <span class="icon-2"></span>
-      <span class="icon-3"></span>
-      <span class="icon-4"></span>
-      <span class="icon-5"></span>
-
-    </div>
-  </section>
-  <!--portfolio-->
-  <section id="portfolio">
-    <div class="p-heading-container">
-      <h2>Portfolio</h2>
-    </div>
-    <div class="p-b-container">
-
-      <div class="p-box recipe">
-        <div class="text-overlay">
-          <h3>Small-recipe-app</h3>
-          <p>Small-recipe-app using free API to show recipes.
-          <ul>
-            <li>Use search bar to find recipes by a keyword</li>
-            <li>Click any recipe to see description and cooking method</li>
-            <li>If you like any of them and want to save recipe as your favorite, click the heart icon</li>
-          </ul>
-          </p>
-          <a href="https://small-recipe-app.netlify.app" target="_blank"><button class="p-btn-demo">Demo</button></a>
-          <a href="https://github.com/Razlond-dev/small-recipe-app" target="_blank"><button
-            class="p-btn-code">Code</button></a>
+  <body>
+    <header id="main">
+      <!--navigation-->
+      <nav>
+        <!--logo-->
+        <a href="#main" class="logo"></a>
+        <div class="toggle"></div>
+        <!--menu-->
+        <ul class="menu">
+          <li><a href="#main">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#my-stack">My stack</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact-form">Contact</a></li>
+        </ul>
+        <!--bar-icon-->
+      </nav>
+      <div class="header-inner">
+        <div class="name">
+          <h1>Nazar Pidhirnyi</h1>
+          <span class="details">Self-taught web developer</span>
+          <a href="#contact-form" class="greet-btn">Contact me</a>
+        </div>
+        <div class="avatar-container">
+          <img class="avatar" src="/images/Ava.jpg" alt="" />
         </div>
       </div>
-
-      <div class="p-box e-commerce">
-        <div class="text-overlay">
-          <h3>E-commerce website UI</h3>
-          <p>E-commerce website UI built with HTML/CSS/JS. </p>
-          <ul>
-            <li>Subscribe to our news!</li>
-            <li>Sort products by categories or check all products available</li>
-            <li class="not-done">No backend in the project</li>
-          </ul>
-          <a href="https://develop-e-commerce.netlify.app" target="_blank"><button class="p-btn-demo">Demo</button></a>
-          <a href="https://github.com/Razlond-dev/e-commerce-website" target="_blank"><button
-            class="p-btn-code">Code</button></a>
-        </div>
+      <!--Social-->
+      <div class="social">
+        <a href="https://www.facebook.com/nazar.pidhirnyi" target="_blank"
+          ><i class="fab fa-facebook"></i
+        ></a>
+        <a href="https://github.com/Razlond-dev" target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
       </div>
-      
-      <div class="p-box movies">
-        <div class="text-overlay">
-          <h3>Social network</h3>
-          <p>My first react project - social network with people that are learning react. 
-            <ul>
-              <li>Login to get access to your profile</li>
-              <li>Fill information about yourself, set status and upload a photo</li>
-              <li>Look profiles of other users</li>
-              <li class="not-done">Registration aren't available yet</li>
-              <li class="not-done">UI need to be reworked</li>
-              <li class="not-done">Some features aren't working and must be fixed</li>
-            </ul>
-            In progress..
-          </p>
-          <a href="https://razlond-dev.github.io/first-project-socialNetwork/" target="_blank"><button class="p-btn-demo">Demo</button></a>
-          <a href="https://github.com/Razlond-dev/first-project-socialNetwork" target="_blank"><button
-            class="p-btn-code">Code</button></a>
+    </header>
+    <!--about section-->
+    <section id="about">
+      <div class="about-text">
+        <div class="about-heading">
+          <h2>About me</h2>
         </div>
+        <p>
+          Hi there, my name is Nazar and I am 21 years old. Currently I am
+          studying Environmental Engineering at Lodz University of Technology.
+          I've meet up with web development in the summer 2020 and from the very
+          begginning, it becomes my favorite hobby. Eager to new knowledge,
+          after understanding how to work with HTML and CSS, I've dive into
+          JavaScript and later to React.js. Getting pleasure to learn something
+          new at coding, for the past month I've recognized, that this is my
+          passion, which I certainly need to follow. :)
+        </p>
       </div>
 
-    </div>
-  </section>
-  <!--contact-btn-->
-  <section id="contact-btn">
-    <h2>Do you want to contact me?</h2>
-
-    <a href="#contact-form">Contact me</a>
-  </section>
-  <!--contact-form-->
-  <section id="contact-form">
-    <form name="contact" netlify>
-
-      <div class="contact-left">
-        <h2 class="c-l-heading">Write me</h2>
-
-        <div class="f-name">
-          <h4>Name</h4>
-
-          <input type="text" name="name" placeholder="Full Name">
+      <div class="about-my-path">
+        <div class="my-path-item">
+          <img
+            src="/images/environmental.png"
+            alt="Environmental Engineering"
+          />
+          <p>2017 - Now</p>
+          <p>B.Sc. Environmental Engineering</p>
         </div>
 
-        <div class="f-email">
-          <h4>Email</h4>
-
-          <input type="email" name="email" placeholder="Example@mail.com">
+        <div class="my-path-item">
+          <img src="/images/web-dev.png" alt="Web development" />
+          <p>2020 - Now</p>
+          <p>Web development</p>
         </div>
-
-        <div class="f-email">
-          <h4>Subject</h4>
-
-          <input type="text" name="subject" placeholder="...">
-        </div>
-
       </div>
-      <div class="contact-right">
-        <div class="message">
-          <h4>Message</h4>
-          <textarea name="message" id="" cols="20" rows="5" placeholder="Write me message.."></textarea>
+    </section>
+    <!--my-stack-->
+    <section id="my-stack">
+      <div class="s-heading">
+        <div class="s-heading-title">
+          <h2>My stack</h2>
         </div>
-        <button type="submit" name="submit">Submit</button>
+        <p>
+          Here is my stack of technologies and tools that I am familiar with and
+          keep continuously learning.
+        </p>
       </div>
+      <div class="s-b-container">
+        <span class="icon-1"></span>
+        <span class="icon-2"></span>
+        <span class="icon-3"></span>
+        <span class="icon-4"></span>
+      </div>
+    </section>
+    <!--portfolio-->
+    <section id="portfolio">
+      <div class="p-heading-container">
+        <h2>Portfolio</h2>
+      </div>
+      <div class="p-b-container">
+        <div class="box">
+          <div class="box-inner">
+            <div class="box-image">
+              <img src="/images/netflix-clone.JPG" alt="netflix-clone" />
+            </div>
+            <div class="p-description">
+              <div class="tags">React</div>
+              <div class="tags">Styled Components</div>
+              <div class="tags">Firebase</div>
+              <h3>Netflix-clone</h3>
+              <p>
+                Application UI based on popular american platform Netflix.
+                Components were designed with Compound Components pattern. Some
+                simple processes were covered by tests using Jest. Whole project
+                used for educational and training purposes.
+              </p>
+              <ul>
+                <li>Sign up & sign in</li>
+                <li>
+                  Search films or series by keyword in description or title
+                </li>
+                <li>
+                  Click the picture of film or series to look into description
+                </li>
+              </ul>
+              <div class="p-buttons">
+                <a href="https://np-netflix-clone.netlify.app" target="_blank"
+                  ><button class="p-btn-demo">Demo</button></a
+                >
+                <a
+                  href="https://github.com/Razlond-dev/netflix-clone"
+                  target="_blank"
+                  ><button class="p-btn-code">Code</button></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
 
-    </form>
-  </section>
+        <div class="box">
+          <div class="box-inner reverse">
+            <div class="box-image">
+              <img src="/images/recipe.JPG" alt="recipe-app" />
+            </div>
+            <div class="p-description">
+              <div class="tags">HTML</div>
+              <div class="tags">CSS</div>
+              <div class="tags">JavaScript</div>
+              <h3>Small-recipe-app</h3>
+              <p>Small-recipe-app using free API to show recipes.</p>
+              <ul>
+                <li>Use search bar to find recipes by a keyword</li>
+                <li>Click any recipe to see description and cooking method</li>
+                <li>
+                  If you like any of them and want to save recipe as your
+                  favorite, click the heart icon
+                </li>
+              </ul>
+              <div class="p-buttons">
+                <a href="https://small-recipe-app.netlify.app" target="_blank"
+                  ><button class="p-btn-demo">Demo</button></a
+                >
+                <a
+                  href="https://github.com/Razlond-dev/small-recipe-app"
+                  target="_blank"
+                  ><button class="p-btn-code">Code</button></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
 
-  <footer class="footer">
-    <div class="f-social">
-      <a href="https://www.facebook.com/nazar.pidhirnyi" target="_blank"><i class="fab fa-facebook"></i></a>
-      <a href="https://github.com/Razlond-dev" target="_blank"><i class="fab fa-github"></i></a>
-    </div>
-    <div class="f-text">
-      <p>2020 | Made by Nazar Pidhirnyi</p>
-    </div>
-  </footer>
+        <div class="box">
+          <div class="box-inner">
+            <div class="box-image">
+              <img src="/images/develop.JPG" alt="develop" />
+            </div>
+            <div class="p-description">
+              <div class="tags">HTML</div>
+              <div class="tags">CSS</div>
+              <div class="tags">JavaScript</div>
+              <h3>E-commerce website UI</h3>
+              <p>E-commerce website UI with mostly shoes products.</p>
+              <ul>
+                <li>Subscribe to our news!</li>
+                <li>
+                  Sort products by categories or check all products available
+                </li>
+                <li class="not-done">No backend in the project</li>
+              </ul>
+              <div class="p-buttons">
+                <a href="https://develop-e-commerce.netlify.app" target="_blank"
+                  ><button class="p-btn-demo">Demo</button></a
+                >
+                <a
+                  href="https://github.com/Razlond-dev/e-commerce-website"
+                  target="_blank"
+                  ><button class="p-btn-code">Code</button></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--contact-btn-->
+    <section id="contact-btn">
+      <h2>Do you want to contact me?</h2>
 
+      <a href="#contact-form">Contact me</a>
+    </section>
+    <!--contact-form-->
+    <section id="contact-form">
+      <form name="contact" netlify>
+        <div class="contact-left">
+          <h2 class="c-l-heading">Write me</h2>
 
-  <!--Jquery-->
-  <script src="js/jquery.js"></script>
-  <!--ScrollOut-->
-  <script src="/js/scroll-out.js"></script>
-  <!--Main js-->
-  <script src="js/main.js"></script>
-</body>
+          <div class="f-name">
+            <h4>Name</h4>
 
+            <input type="text" name="name" placeholder="Full Name" />
+          </div>
+
+          <div class="f-email">
+            <h4>Email</h4>
+
+            <input type="email" name="email" placeholder="Example@mail.com" />
+          </div>
+
+          <div class="f-email">
+            <h4>Subject</h4>
+
+            <input type="text" name="subject" placeholder="..." />
+          </div>
+        </div>
+        <div class="contact-right">
+          <div class="message">
+            <h4>Message</h4>
+            <textarea
+              name="message"
+              id=""
+              cols="20"
+              rows="5"
+              placeholder="Write me message.."
+            ></textarea>
+          </div>
+          <button type="submit" name="submit">Submit</button>
+        </div>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="f-social">
+        <a href="https://www.facebook.com/nazar.pidhirnyi" target="_blank"
+          ><i class="fab fa-facebook"></i
+        ></a>
+        <a href="https://github.com/Razlond-dev" target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+      </div>
+      <div class="f-text">
+        <p>2020 | Made by Nazar Pidhirnyi</p>
+      </div>
+    </footer>
+
+    <!--Jquery-->
+    <script src="js/jquery.js"></script>
+    <!--ScrollOut-->
+    <script src="/js/scroll-out.js"></script>
+    <!--Main js-->
+    <script src="js/main.js"></script>
+  </body>
 </html>
