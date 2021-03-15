@@ -278,6 +278,10 @@ nav {
   font-weight: 600;
 }
 
+.my-path-item__link {
+  color: var(--light-text-color);
+}
+
 .my-path-item img[data-scroll="in"],
 .my-path-item p[data-scroll="in"],
 .s-heading p[data-scroll="in"],
@@ -837,6 +841,11 @@ nav {
   text-transform: uppercase;
 }
 
+.contact-right button:hover {
+  background-color: #00ffcc;
+  transition: all 0.3s ease;
+}
+
 .footer {
   width: 100%;
   height: 150px;
@@ -854,7 +863,7 @@ nav {
 }
 
 .f-social a:hover {
-  color: blue;
+  color: #17d1ac;
   transition: all ease 0.5s;
 }
 
@@ -953,7 +962,7 @@ nav {
     width: 100%;
     height: auto;
     background-color: #262626;
-    top: 50px;
+    top: 70px;
     left: 0;
     transition: 0.5s;
     overflow: hidden;
